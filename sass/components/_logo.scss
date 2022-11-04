@@ -1,0 +1,20 @@
+.logo {
+  display: inline-block;
+  color: var(--accent-color);
+  align-items: center;
+  font-family: 'Raleway';
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.navigation__logo {
+  margin-right: 93px;
+}
+
+.logo--dark {
+  color: var(--secondary-text-color);
+}
+
+.logo--light {
+  color: var(--primary-white-color);
+}
