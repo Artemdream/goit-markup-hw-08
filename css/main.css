@@ -1159,6 +1159,7 @@ header {
 .soc__list-footer {
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
 
 .soc__link-footer {
