@@ -742,27 +742,27 @@ header {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .section.hero {
-    background-image: var(--bg-gradient), url("/images//fon-hero-mob-2x.jpeg");
+    background-image: var(--bg-gradient), url("../images//fon-hero-mob-2x.jpeg");
   }
 }
 @media screen and (min-width: 768px) {
   .section.hero {
-    background-image: var(--bg-gradient), url("/images/fon-hero-tab.jpeg");
+    background-image: var(--bg-gradient), url("../images/fon-hero-tab.jpeg");
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .section.hero {
-    background-image: var(--bg-gradient), url("/images/fon-hero-tab-2x.jpeg");
+    background-image: var(--bg-gradient), url("../images/fon-hero-tab-2x.jpeg");
   }
 }
 @media screen and (min-width: 1200px) {
   .section.hero {
-    background-image: var(--bg-gradient), url("/images/fon-hero.jpeg");
+    background-image: var(--bg-gradient), url("../images/fon-hero.jpeg");
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .section.hero {
-    background-image: var(--bg-gradient), url("/images/fon-hero-2x.jpeg");
+    background-image: var(--bg-gradient), url("../images/fon-hero-2x.jpeg");
   }
 }
 
