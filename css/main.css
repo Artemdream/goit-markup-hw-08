@@ -735,7 +735,7 @@ header {
   padding-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  background-image: var(--bg-gradient), url("/images/fon-hero-mob.jpg");
+  background-image: var(--bg-gradient), url("../images/fon-hero-mob.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
