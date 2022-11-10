@@ -107,6 +107,7 @@ header {
 
 .contact__icon {
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .menu-open-btn {
@@ -193,6 +194,13 @@ header {
 
 .mob-menu__item:not(:last-child) {
   margin-bottom: 32px;
+}
+
+.mob-menu__link {
+  color: var(--secondary-text-color);
+  &.current {
+    color: var(--accent-color);
+  }
 }
 
 .mob-contact__list {

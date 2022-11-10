@@ -21,8 +21,10 @@
   }
   @include desktop {
     background-image: var(--bg-gradient), url("../images/fon-hero.jpeg");
+    max-width: 1600px;
     @include retina {
       background-image: var(--bg-gradient), url("../images/fon-hero-2x.jpeg");
+      max-width: 1600px;
     }
   }
 }

@@ -42,6 +42,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  width: 100%;
 }
 
 ul,
@@ -578,6 +579,7 @@ header {
 
 .contact__icon {
   margin-right: 10px;
+  fill: currentColor;
 }
 
 .menu-open-btn {
@@ -674,6 +676,13 @@ header {
   margin-bottom: 32px;
 }
 
+.mob-menu__link {
+  color: var(--secondary-text-color);
+}
+.mob-menu__link.current {
+  color: var(--accent-color);
+}
+
 .mob-contact__list {
   display: block;
   margin-bottom: 64px;
@@ -758,11 +767,13 @@ header {
 @media screen and (min-width: 1200px) {
   .section.hero {
     background-image: var(--bg-gradient), url("../images/fon-hero.jpeg");
+    max-width: 1600px;
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .section.hero {
     background-image: var(--bg-gradient), url("../images/fon-hero-2x.jpeg");
+    max-width: 1600px;
   }
 }
 
@@ -836,6 +847,8 @@ header {
 @media screen and (min-width: 1200px) {
   .section.work {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -929,6 +942,9 @@ header {
   .section.team {
     padding-top: 94px;
     padding-bottom: 94px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

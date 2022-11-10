@@ -2,7 +2,10 @@
   background-color: var(--primery-color-button);
   @include desktop {
     padding-top: 94px;
-    padding-bottom: 94px;    
+    padding-bottom: 94px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -15,10 +18,10 @@
 .team-item {
   width: 100%;
   @include tablet {
-    width: calc((100% -  30px) / 2);   
+    width: calc((100% - 30px) / 2);
   }
   @include desktop {
-    width: calc((100% -  90px) / 4);   
+    width: calc((100% - 90px) / 4);
   }
   border-radius: 0px 0px 4px 4px;
   background-color: var(--primary-white-color);
