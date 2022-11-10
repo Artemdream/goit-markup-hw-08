@@ -13,10 +13,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  justify-content: center;
 }
 
 .team-item {
-  width: 100%;
+  max-width: 450px;
   @include tablet {
     width: calc((100% - 30px) / 2);
   }
