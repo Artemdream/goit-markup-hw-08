@@ -11,4 +11,4 @@
   function toggleMenu() {
     refs.Menu.classList.toggle("is-hidden");
   }
-})();
+})(); 

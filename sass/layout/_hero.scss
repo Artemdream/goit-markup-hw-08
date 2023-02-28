@@ -7,10 +7,10 @@
   margin-right: auto;
   background-image: var(--bg-gradient), url("../images/fon-hero-mob.jpeg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; 
   background-position: center;
   @include retina {
-    background-image: var(--bg-gradient), url("../images//fon-hero-mob-2x.jpeg");
+    background-image: var(--bg-gradient), url("../images/fon-hero-mob-2x.jpeg");
   }
   @include tablet {
     background-image: var(--bg-gradient), url("../images/fon-hero-tab.jpeg");
